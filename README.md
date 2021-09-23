@@ -118,3 +118,35 @@ En la página anterior, cree un formulario que tenga un campo para ingresar un n
 ![image](https://user-images.githubusercontent.com/88836525/134590448-ff51e23f-27a7-4a3f-8475-8ccbb95a5a6a.png)
 ![image](https://user-images.githubusercontent.com/88836525/134590461-eda56414-60ba-4f1d-a4c6-300e7e3645b9.png)
 
+## PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
+
+Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
+
+![image](https://user-images.githubusercontent.com/88836525/134592305-a1c466b9-d408-41de-95e5-d94c1125ee63.png)
+
+Para que configure automáticamente el descriptor de despliegue de la aplicación (archivo web.xml), de manera que el framework JSF se active al inicio de la aplicación, en el archivo web.xml agregue la siguiente configuración:
+
+![image](https://user-images.githubusercontent.com/88836525/134592544-22843312-90b4-4c4e-af29-d3d59b7ca6c9.png)
+
+
+Revise cada una de las configuraciones agregadas anteriormente para saber qué hacen y por qué se necesitan. Elimine las que no se necesiten.
+
+
+![image](https://user-images.githubusercontent.com/88836525/134592654-6b7affc2-a667-4506-88ae-bd7883e3520b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
