@@ -8,12 +8,6 @@ Para usar telnet en windows primero se debe habilitar el cliente de telnet
 
 al intentar con telnet www.escuelaing.edu.co 80 nos daba un error
 
-![image](https://user-images.githubusercontent.com/88836525/134589995-2219c697-abc2-4274-8e5c-cf1ca2c5399f.png)
-
-![image](https://user-images.githubusercontent.com/88836525/134589971-a1482ee7-6b70-4505-b089-379f771dbce4.png)
-
-
-
 ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
 
 1: Respuestas informativas
@@ -27,6 +21,16 @@ al intentar con telnet www.escuelaing.edu.co 80 nos daba un error
 5: Errores de servidor
 ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
 
+![image](https://user-images.githubusercontent.com/88836525/134590993-0630c944-704f-4d60-87aa-512e15619e38.png)
+
+Realice una nueva conexión con telnet, esta vez a:
+Host: www.httpbin.org
+Puerto: 80
+Versión HTTP: 1.1
+Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+
+![image](https://user-images.githubusercontent.com/88836525/134589971-a1482ee7-6b70-4505-b089-379f771dbce4.png)
+
 GET El método GET solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos. HEAD El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. POST El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor. PUT El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
 
 DELETE El método DELETE borra un recurso en específico. CONNECT El método CONNECT establece un túnel hacia el servidor identificado por el recurso.
@@ -39,8 +43,16 @@ PATCH El método PATCH es utilizado para aplicar modificaciones parciales a un r
 
 -v, --verbose Hacer que la operación sea más comunicativa -i, --include Incluir encabezados de respuesta de protocolo en la salida
 
+Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
+
+wc -c
+
 ![image](https://user-images.githubusercontent.com/88836525/134590016-22551153-e8fe-414c-a210-877c13313d3c.png)
+
+curl -v detalla con mayor precision la operación 
 ![image](https://user-images.githubusercontent.com/88836525/134590045-ce8d7b5c-0f93-40b3-9f8c-6ff0ad1ce263.png)
+curl -I incluye el protocolo responsable (out)
+
 ![image](https://user-images.githubusercontent.com/88836525/134590072-e6f21cf3-9167-44b7-97ea-e87fce7be093.png)
 
 
