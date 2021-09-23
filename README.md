@@ -67,5 +67,7 @@ eniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequ
 
 ![image](https://user-images.githubusercontent.com/88836525/134454968-4e5587e0-f9f6-4425-85de-8b04c5b63b7e.png)
 ![image](https://user-images.githubusercontent.com/88836525/134454975-4a530148-5dce-4e21-be2f-5d46cb394b7b.png)
+
+Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
 ![image](https://user-images.githubusercontent.com/88836525/134455279-426598f8-d6df-492b-a3e0-19e663ab4197.png)
 
