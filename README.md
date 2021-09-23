@@ -135,6 +135,7 @@ Revise cada una de las configuraciones agregadas anteriormente para saber qué h
 ![image](https://user-images.githubusercontent.com/88836525/134592654-6b7affc2-a667-4506-88ae-bd7883e3520b.png)
 
 
+![image](https://user-images.githubusercontent.com/88836525/134596352-8d7f8ad3-f928-48c1-a6cb-82bcbebc119f.png)
 
 
 
