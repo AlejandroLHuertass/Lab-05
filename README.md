@@ -2,9 +2,16 @@
 
 ## PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 
+Para usar telnet en windows primero se debe habilitar el cliente de telnet
+
 ![image](https://user-images.githubusercontent.com/88836525/134589947-50962de7-841e-4eba-923f-e447784667e3.png)
-![image](https://user-images.githubusercontent.com/88836525/134589971-a1482ee7-6b70-4505-b089-379f771dbce4.png)
+
+al intentar con telnet www.escuelaing.edu.co 80 nos daba un error
+
 ![image](https://user-images.githubusercontent.com/88836525/134589995-2219c697-abc2-4274-8e5c-cf1ca2c5399f.png)
+
+![image](https://user-images.githubusercontent.com/88836525/134589971-a1482ee7-6b70-4505-b089-379f771dbce4.png)
+
 
 
 ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
