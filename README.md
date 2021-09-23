@@ -84,23 +84,18 @@ Intente hacer diferentes consultas desde un navegador Web para probar las difere
 
 ## PARTE III.
 En su servlet, sobreescriba el método doPost, y haga la misma implementación del doGet.
-Cree el archivo index.html en el directorio src/main/webapp/index.html de la siguiente manera:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
 En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revise http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado (es decir la URL pero excluyendo ‘http://localhost:8080/’).
 
-Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el browser se valide que el valor ingresado es un valor numérico.
 
-Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
+![image](https://user-images.githubusercontent.com/88836525/134590270-3ad4fb96-0b13-4d90-a741-66ec796c197f.png)
+![image](https://user-images.githubusercontent.com/88836525/134590397-4910acd0-a1ae-4e73-8362-9bd6651688fa.png)
+
 
 ¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
+![image](https://user-images.githubusercontent.com/88836525/134590434-5d11f502-f728-4193-ab21-850d93216e58.png)
+![image](https://user-images.githubusercontent.com/88836525/134590475-5c43b41c-307c-4970-be10-1cc9e146e61c.png)
+
+![image](https://user-images.githubusercontent.com/88836525/134590448-ff51e23f-27a7-4a3f-8475-8ccbb95a5a6a.png)
+![image](https://user-images.githubusercontent.com/88836525/134590461-eda56414-60ba-4f1d-a4c6-300e7e3645b9.png)
 
