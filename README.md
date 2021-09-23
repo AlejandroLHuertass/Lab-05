@@ -1,4 +1,31 @@
+# LABORATORIO 5 - MVC PRIMEFACES INTRODUCTION - 2021-2
 
+## PARTE I. - JUGANDO A SER UN CLIENTE HTTP
+
+¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+
+1: Respuestas informativas
+
+2: Peticiones correctas
+
+3: Redirecciones
+
+4: Errores del cliente
+
+5: Errores de servidor
+¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
+
+GET El método GET solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos. HEAD El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. POST El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor. PUT El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+
+DELETE El método DELETE borra un recurso en específico. CONNECT El método CONNECT establece un túnel hacia el servidor identificado por el recurso.
+
+OPTIONS El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino. TRACE El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
+
+PATCH El método PATCH es utilizado para aplicar modificaciones parciales a un recurso.
+
+¿Cuáles son las diferencias con los diferentes parámetros?
+
+-v, --verbose Hacer que la operación sea más comunicativa -i, --include Incluir encabezados de respuesta de protocolo en la salida
 
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
@@ -34,7 +61,11 @@ Basado en la respuesta que le da el servicio del punto anterior, cree la clase e
 
 Utilice la siguiente clase para consumir el servicio que se encuentra en la dirección url del punto anterior:
 
+eniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequest y ServletResponse recibidos por el método doGet:
+
 ![image](https://user-images.githubusercontent.com/88836525/134454949-cb940eba-dd04-4c13-8d19-f2378417e2de.png)
 
 ![image](https://user-images.githubusercontent.com/88836525/134454968-4e5587e0-f9f6-4425-85de-8b04c5b63b7e.png)
 ![image](https://user-images.githubusercontent.com/88836525/134454975-4a530148-5dce-4e21-be2f-5d46cb394b7b.png)
+![image](https://user-images.githubusercontent.com/88836525/134455279-426598f8-d6df-492b-a3e0-19e663ab4197.png)
+
