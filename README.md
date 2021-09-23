@@ -2,6 +2,11 @@
 
 ## PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 
+![image](https://user-images.githubusercontent.com/88836525/134589947-50962de7-841e-4eba-923f-e447784667e3.png)
+![image](https://user-images.githubusercontent.com/88836525/134589971-a1482ee7-6b70-4505-b089-379f771dbce4.png)
+![image](https://user-images.githubusercontent.com/88836525/134589995-2219c697-abc2-4274-8e5c-cf1ca2c5399f.png)
+
+
 ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
 
 1: Respuestas informativas
@@ -26,6 +31,11 @@ PATCH El método PATCH es utilizado para aplicar modificaciones parciales a un r
 ¿Cuáles son las diferencias con los diferentes parámetros?
 
 -v, --verbose Hacer que la operación sea más comunicativa -i, --include Incluir encabezados de respuesta de protocolo en la salida
+
+![image](https://user-images.githubusercontent.com/88836525/134590016-22551153-e8fe-414c-a210-877c13313d3c.png)
+![image](https://user-images.githubusercontent.com/88836525/134590045-ce8d7b5c-0f93-40b3-9f8c-6ff0ad1ce263.png)
+![image](https://user-images.githubusercontent.com/88836525/134590072-e6f21cf3-9167-44b7-97ea-e87fce7be093.png)
+
 
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
@@ -70,4 +80,27 @@ eniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequ
 
 Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
 ![image](https://user-images.githubusercontent.com/88836525/134455279-426598f8-d6df-492b-a3e0-19e663ab4197.png)
+
+
+## PARTE III.
+En su servlet, sobreescriba el método doPost, y haga la misma implementación del doGet.
+Cree el archivo index.html en el directorio src/main/webapp/index.html de la siguiente manera:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html>
+En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revise http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado (es decir la URL pero excluyendo ‘http://localhost:8080/’).
+
+Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el browser se valide que el valor ingresado es un valor numérico.
+
+Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
+
+¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
 
