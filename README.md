@@ -134,6 +134,8 @@ Revise cada una de las configuraciones agregadas anteriormente para saber qué h
 
 ![image](https://user-images.githubusercontent.com/88836525/134592654-6b7affc2-a667-4506-88ae-bd7883e3520b.png)
 
+xhtml
+
 ![image](https://user-images.githubusercontent.com/88836525/134600673-4afa91ee-7c47-45a0-87b6-beae429b9d70.png)
 
 implementacion en el archivo xhtml
