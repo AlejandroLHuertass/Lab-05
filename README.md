@@ -134,8 +134,22 @@ Revise cada una de las configuraciones agregadas anteriormente para saber qué h
 
 ![image](https://user-images.githubusercontent.com/88836525/134592654-6b7affc2-a667-4506-88ae-bd7883e3520b.png)
 
+![image](https://user-images.githubusercontent.com/88836525/134600673-4afa91ee-7c47-45a0-87b6-beae429b9d70.png)
+
+implementacion en el archivo xhtml
 
 ![image](https://user-images.githubusercontent.com/88836525/134596352-8d7f8ad3-f928-48c1-a6cb-82bcbebc119f.png)
+
+diferencia entre navegadores
+
+OperaGX
+
+![image](https://user-images.githubusercontent.com/88836525/134600360-695d9e2f-22d7-49ac-9a38-df5f7c9ed277.png)
+
+Chrome
+
+![image](https://user-images.githubusercontent.com/88836525/134600450-4224b305-821c-4220-8616-1f060099bd93.png)
+
 
 
 
