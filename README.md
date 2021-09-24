@@ -144,7 +144,7 @@ diferencia entre navegadores
 
 OperaGX
 
-![image](https://user-images.githubusercontent.com/88836525/134600360-695d9e2f-22d7-49ac-9a38-df5f7c9ed277.png)
+![image](https://user-images.githubusercontent.com/88836525/134600751-fe9414a9-d05d-4c4e-8aa1-c552aed1ba1a.png)
 
 Chrome
 
